@@ -1,4 +1,4 @@
-[https://img.shields.io/github/v/release/app-init/app-init?style=for-the-badge] [https://img.shields.io/github/license/app-init/app-init?style=for-the-badge] [https://img.shields.io/discord/454707920668721173?style=for-the-badge]
+(https://img.shields.io/github/v/release/app-init/app-init?style=for-the-badge) (https://img.shields.io/github/license/app-init/app-init?style=for-the-badge) (https://img.shields.io/discord/454707920668721173?style=for-the-badge)
 
 # Description
 Similar to `create-react-app` but for the entire web application stack
@@ -10,7 +10,7 @@ Frontend: React + bootstrap + material design
 
 # Requirements
 `mongodb`
-`python 3`
+`python3`
 `docker`
 
 # TODO
