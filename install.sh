@@ -20,7 +20,7 @@ if [ ! -d "./virtv/appinit/lib/" ]; then
   pip install --editable packages/cli/
  
   color "Installing npm packages"
-  cd packages/ui
+  cd ./packages/ui
   yarn install
   yarn link
   yarn link @app-init/ui 
