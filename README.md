@@ -12,6 +12,8 @@ Frontend: React + bootstrap + material design
 `mongodb`
 `python 3`
 `docker`
+`npm`
+`yarn`
 
 # TODO
 Automate adding an application
