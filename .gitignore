@@ -1,0 +1,12 @@
+*.pyc
+*.lock
+!/.gitignore
+**/__pycache__/
+virtv/appinit/
+__pycache__/
+.DS_Store
+**/dist/
+!**/README
+*.egg-info/
+build
+applications/

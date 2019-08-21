@@ -1,0 +1,15 @@
+[submodule "packages/auth"]
+	path = packages/auth
+	url = git@github.com:app-init/auth.git
+[submodule "packages/cli"]
+	path = packages/cli
+	url = git@github.com:app-init/cli.git
+[submodule "packages/backend"]
+	path = packages/backend
+	url = git@github.com:app-init/backend.git
+[submodule "packages/frontend"]
+	path = packages/frontend
+	url = git@github.com:app-init/frontend.git
+[submodule "packages/ui"]
+	path = packages/ui
+	url = git@github.com:app-init/ui.git
