@@ -16,8 +16,17 @@ Frontend: React + bootstrap + material design
 `npm`
 `yarn`
 
+## Database
+Default directory for database data is `~/mongodb`
+
 ## TODO
 Automate adding an application
+
 Automate install package depencies for development
+
 Document Everything
+
 Add Badges to package repos README.md
+
+Check to see if base docker image is build
+
