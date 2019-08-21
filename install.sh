@@ -2,11 +2,21 @@
 end="\033[0m"
 red="\033[1;31m"
 
+settings='{
+  "python.pythonPath": "virtv/appinit/bin/python",
+}'
+
 function color {
   echo "${red}${1}${end}"
 }
 
 if [ ! -d "./virtv/appinit/lib/" ]; then
+  if [ ! -d ".vscode/" ]; then
+    mkdir .vscode
+    touch .vscode/settings.json
+    echo $settings > .vscode/settings.json
+  fi
+
   color "Building Virtual Environment"
   virtualenv -p python3 virtv/appinit
   
