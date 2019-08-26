@@ -6,8 +6,11 @@ Similar to `create-react-app` but for the entire web application stack
 The stack we have choosen woth work with are the following
 
 Backend: python - Flask
+
 Auth: SAML (soon to support Auth0)
+
 Frontend: React + bootstrap + material design
+
 
 ## Requirements
 `mongodb`
